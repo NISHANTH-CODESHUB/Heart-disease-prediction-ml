@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About — HeartCare AI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-brand">
+      <a href="/" style="text-decoration:none;color:inherit;display:flex;align-items:center;gap:8px;">
+        <span class="heart-icon">♥</span>
+        <span class="brand-text">HeartCare<span class="brand-ai">AI</span></span>
+      </a>
+    </div>
+    <a href="/" class="nav-link">← Back</a>
+  </nav>
+
+  <section class="about-section">
+    <h2 class="about-title">About This Project</h2>
+    <p class="about-sub">
+      HeartCare AI is a Machine Learning–based decision-support system designed to provide
+      early heart disease risk awareness. It uses a Random Forest classifier trained on the
+      UCI Heart Disease Dataset to predict risk levels based on clinical parameters.
+    </p>
+
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-avatar">GN</div>
+        <h4>G. Nishanth</h4>
+        <p>Roll No: 25CS169</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">NR</div>
+        <h4>Nirmalkumar R</h4>
+        <p>Roll No: 25CS166</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">NS</div>
+        <h4>Nigithaa S</h4>
+        <p>Roll No: 25CS164</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">ND</div>
+        <h4>Niktha D</h4>
+        <p>Roll No: 25CS165</p>
+      </div>
+    </div>
+
+    <div class="about-info">
+      <p><strong>Department:</strong> Computer Science and Engineering — C</p>
+      <p><strong>College:</strong> KPR Institute of Engineering and Technology (KPRIET)</p>
+      <p><strong>Contact:</strong> 6385561368 | gnishanth7311@gmail.com</p>
+      <p><strong>Tech Stack:</strong> Python · Flask · Scikit-learn · Pandas · NumPy · HTML/CSS</p>
+      <p><strong>Algorithm:</strong> Random Forest Classifier (GridSearchCV Optimized)</p>
+      <p><strong>Dataset:</strong> UCI Heart Disease Dataset · 1,198 records · 11 features</p>
+    </div>
+
+    <a href="/" class="action-btn action-home" style="display:inline-block;margin-top:2rem;">Back to Home</a>
+  </section>
+
+  <footer class="footer">
+    <p>⚠️ This system is for educational and awareness purposes only. Not a medical diagnosis.</p>
+  </footer>
+
+</body>
+</html>
