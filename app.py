@@ -7,11 +7,11 @@ HOW TO RUN:
 """
 
 from flask import Flask, render_template, request, redirect, url_for, session
-import pickle
-import numpy as np
-import os
+import pickle       #load saved ML model
+import numpy as np  #Data handling
+import os  #file handling
 
-app = Flask(__name__)
+app = Flask(__name__)  #create flash application
 app.secret_key = "heartcare_secret_2025" # needed for session storage
 
 # ─────────────────────────────────────────────
