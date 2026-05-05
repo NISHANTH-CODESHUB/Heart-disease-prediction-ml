@@ -69,7 +69,7 @@ def calculate_risk(base_prob, age, resting_bp, cholesterol,
 
     if final_prob < 0.30:
         category  = "Low Risk"
-        message   = "Your current indicators suggest a low risk. Keep maintaining a healthy lifestyle."
+        message   = "Your current indicators suggest a low risk. Keep maintaining a healthy lifestyle.dont worry"
         level_num = 1
     elif final_prob < 0.55:
         category  = "Medium Risk"
